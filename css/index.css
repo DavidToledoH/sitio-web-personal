@@ -1,0 +1,78 @@
+
+nav ul a,
+nav .brand-logo {
+  color: #FFF;
+}
+ 
+p {
+  line-height: 2rem;
+}
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+ 
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+ 
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+ 
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.social {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.social ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+
+.social i.fa {
+  font-size: 30px;
+  padding: 4px 5px;
+  color: #0d47a1;
+  transition: all 0.5s;
+}
+
+.social i.fa:hover {
+  color: #0d47a1;
+}
+.mail {
+  font-size: 15px;
+}
+
+.mail span {
+  padding: 15px 5px 15px 5px;
+}
